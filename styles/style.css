@@ -6,3 +6,101 @@ Green: #00B172
 White: #FFF
 
 */
+
+.logoSpotify {
+  float: left;
+  width: 20%;
+  height: 20%;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 0.5rem;
+  font-size: x-large;
+}
+
+.annoncement{
+    background-image: url("../images/landing.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  background-position:center;
+  width: 100%;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  background-color: #00b172;
+  margin: 30px;
+  padding: 60px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 0% 20% 0% 0%;
+}
+
+.container h2{
+    font-size: 30px;
+    
+}
+
+.screenApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.iconDetail{
+    width: 100px;
+}
+
+.detailSpotify {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+}
+
+.detailSpotify div{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.detailSpotify div h3 {
+    color: #00b172;
+}
+
+.screenApp{
+    width: 250px;
+}
+
+.artist2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+h2{
+    text-decoration: underline;
+}
+
